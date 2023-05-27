@@ -29,6 +29,8 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
+
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureTargetOverlay \
