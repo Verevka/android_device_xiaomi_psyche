@@ -213,8 +213,6 @@
         <item>90000</item>
         <item>95000</item>
         <item>100000</item>
-        <item>110000</item>
-        <item>120000</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
