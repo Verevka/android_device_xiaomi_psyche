@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
 # Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):init_xiaomi_psyche)
+$(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_psyche)
 
 # Overlays
 PRODUCT_PACKAGES += \
