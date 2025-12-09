@@ -36,13 +36,13 @@ $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaom
 
 # Overlays
 PRODUCT_PACKAGES += \
-    ApertureTargetOverlay \
-    FrameworksTargetOverlay \
-    SettingsProviderTargetOverlay \
-    SettingsTargetOverlay \
-    SettingsTargetOverlayPsycheCN \
-    SettingsTargetOverlayPsycheGL \
-    SystemUITargetOverlay
+    ApertureOverlayDevice \
+    FrameworkResOverlayDevice \
+    SettingsCNOverlayDevice \
+    SettingsGLOverlayDevice \
+    SettingsOverlayDevice \
+    SettingsProviderOverlayDevice \
+    SystemUIOverlayDevice
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    WifiTargetOverlay
+    WifiResourcesOverlayDevice
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/psyche/psyche-vendor.mk)
