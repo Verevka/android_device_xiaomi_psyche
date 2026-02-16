@@ -14,6 +14,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from psyche device
 $(call inherit-product, device/xiaomi/psyche/device.mk)
 
+DONT_UNCOMPRESS_PRIV_APPS_DEXS := true
+
 PRODUCT_NAME := lineage_psyche
 PRODUCT_DEVICE := psyche
 PRODUCT_MANUFACTURER := Xiaomi
