@@ -1,0 +1,40 @@
+[
+  {
+    "repository" : "Verevka/proprietary_vendor_xiaomi_psyche",
+    "target_path": "vendor/xiaomi/psyche"
+    "branch"     : "16.0"
+    "remote"     : "crdroid-gitlab"
+  },
+  {
+    "repository" : "crdroidandroid/android_device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common"
+    "branch"     : "16.0-psyche"
+  },
+  {
+    "repository" : "crdroidandroid/proprietary_vendor_xiaomi_sm8250-common",
+    "target_path": "vendor/xiaomi/sm8250-common"
+    "branch"     : "16.0-psyche"
+  },
+  {
+    "repository" : "crdroidandroid/android_kernel_xiaomi_sm8250",
+    "target_path": "kernel/xiaomi/sm8250"
+    "branch"     : "16.0-psyche"
+  },
+  {
+    "repository" : "crdroidandroid/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+    "branch"     : "16.0"
+  }
+  {
+    "repository" : "crdroidandroid/proprietary_vendor_xiaomi_psyche-firmware",
+    "target_path": "vendor/xiaomi/psyche-firmware"
+    "branch"     : "16.0"
+    "remote"     : "crdroid-gitlab"
+  },
+  {
+    "repository" : "crdroidandroid/proprietary_vendor_xiaomi_miuicamera",
+    "target_path": "vendor/xiaomi/camera"
+    "branch"     : "16.0-psyche"
+    "remote"     : "crdroid-gitlab"
+  }
+]
